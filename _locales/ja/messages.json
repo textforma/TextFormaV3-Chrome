@@ -1,0 +1,62 @@
+{
+	"description": {
+		"message": "ウェブサイト上にある見たくない単語(NGワード)を覆い隠したり置き換えたりできる拡張機能です。"
+	},
+	"popup_button_add": {
+		"message": "追加"
+	},
+	"popup_button_save": {
+		"message": "保存"
+	},
+	"popup_text_add_words": {
+		"message": "単語の追加"
+	},
+	"popup_text_edit_words": {
+		"message": "単語の編集"
+	},
+	"popup_text_empty_error": {
+		"message": "空文字エラー"
+	},
+	"popup_text_regex_error": {
+		"message": "正規表現エラー"
+	},
+	"popup_text_inifite_error": {
+		"message": "無限ループエラー"
+	},
+	"popup_text_back": {
+		"message": "戻る"
+	},
+	"denied_text_access_denied": {
+		"message": "アクセスは拒否されました"
+	},
+	"deined_text_reason": {
+		"message": "ウェブサイト側の判断によりTextForma利用者のアクセスが拒否されました。"
+	},
+	"denied_text_information": {
+		"message": "情報"
+	},
+	"denied_text_compromise": {
+		"message": "TextFormaを一時的に無効にしてこのページを閲覧する"
+	},
+	"denied_text_confirm": {
+		"message": "見たくない単語があってもすべて表示されます。よろしいですか?"
+	},
+	"options_title": {
+		"message": "TextForma オプション"
+	},
+	"options_settings": {
+		"message": "設定"
+	},
+	"options_checkbox_pseudo": {
+		"message": "疑似要素のコンテンツを置き換え対象とする(激重)"
+	},
+	"options_checkbox_textbox": {
+		"message": "テキストボックスのテキストの変更を監視して置き換える"
+	},
+	"options_description_pseudo": {
+		"message": "この機能を有効にした場合、一部のサイトが閲覧できないほど重くなる場合があります。疑似要素はほとんどのサイトで使われていません。"
+	},
+	"options_description_textbox": {
+		"message": "この機能を有効にした場合、自分で入力したテキストも置き換えの対象となります。"
+	}
+}

@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="popup.css" />
+        <script src="/scripts/jquery.js"></script>
+        <script src="/scripts/popup.js"></script>
+        <title>TextForma</title>
+    </head>
+    <body>
+        <div id="header">
+            <a href=""><img src="/images/title.png" alt="TextForma Start Page" width="200" height="32" /></a>
+        </div>
+        <div id="container">
+            <div id="add-words">
+                <div class="headword">
+                    <span class="translation">popup_text_add_words</span>
+                </div>
+                <div>
+                    <textarea></textarea>
+                </div>
+                <div>
+                    <button class="translation">popup_button_add</button>
+                </div>
+                <div class="toggle">
+                    <span class="translation">popup_text_edit_words</span>
+                </div>
+            </div>
+            <div id="edit-words">
+                <div class="headword">
+                    <span class="translation">popup_text_edit_words</span>
+                </div>
+                <div>
+                    <textarea></textarea>
+                </div>
+                <div>
+                    <button class="translation">popup_button_save</button>
+                </div>
+                <div class="toggle" >
+                    <span class="translation">popup_text_add_words</span>
+                </div>
+            </div>
+        </div>
+        <div id="error">
+            <div class="header">
+                <span class="empty translation">popup_text_empty_error</span>
+                <span class="regex translation">popup_text_regex_error</span>
+                <span class="infinite translation">popup_text_inifite_error</span>
+            </div>
+            <div class="data">
+                <ul></ul>
+            </div>
+            <div class="description">
+                <span class="empty translation"></span>
+                <span class="regex translation"></span>
+                <span class="infinite translation"></span>
+            </div>
+            <div class="back">
+                <span class="translation">popup_text_back</span>
+            </div>
+        </div>
+
+    </body>
+</html>

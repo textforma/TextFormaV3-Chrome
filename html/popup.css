@@ -1,0 +1,104 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	width: 200px;
+	height: 325px;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	color: #3C3C3C;
+	background-color: #F2F1EE;
+}
+
+#container {
+	padding: 10px;
+}
+
+#edit-words {
+	display: none;
+}
+
+.headword {
+	font-size: 1.0em;
+	margin-top: 10px;
+}
+
+.toggle > span:hover {
+	cursor: pointer;
+}
+
+.toggle {
+	margin-top: 10px;
+	font-size: 1.0em;
+}
+
+textarea {
+	width: 100%;
+	height: 190px;
+	resize: none;
+	padding: 2px 4px;
+}
+
+button {
+	width: 100%;
+}
+
+#error {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	background-color: #ECECEC;
+	display: none;
+}
+
+#error .header {
+	margin-top: 18px;
+	width: 100%;
+	padding: 2px 0;
+	text-align: center;
+	font-size: 1.0em;
+	color: #FFF;
+	background-color: #900;
+}
+
+#error .data {
+	margin: 18px 10px;
+}
+
+#error ul {
+	margin-left: 20px;
+}
+
+#error .description {
+	padding: 10px;
+}
+
+#error .back {
+	width: 100%;
+	top: calc(100% - 40px);
+	text-align: center;
+	position: absolute;
+	background-color: #ECECEC;
+	z-index: 100;
+}
+
+#error .back span {
+	cursor: pointer;
+	font-size: 1.0em;
+	border: 1px solid #777;
+	padding: 1px 8px;
+	user-select: none;
+	color: #FFF;
+	background-color: #888;
+	-webkit-user-select: none;
+	user-select: none;
+}
+
